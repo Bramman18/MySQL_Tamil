@@ -129,7 +129,7 @@ SELECT NAME FROM students WHERE name LIKE '%am';
 SELECT NAME FROM students WHERE name LIKE '%la%';
 
 /* To select values having given keywords:*/
-SELECT * FROM STUDENTS WHERE city IN('Salem','Namakkal');
+SELECT * FROM STUDENTS WHERE city IN('Salem','Chennai');
 
 /* To select values not having given keywords:*/
 SELECT * FROM STUDENTS WHERE city NOT IN('Salem','Namakkal');
